@@ -80,7 +80,42 @@ body {
     
 }
 
+.toggle-btn {
+    display: none;
+}
 
+@media screen and (max-width: 767px) {
+    .toggle-btn-visible {
+        display: block;
+    }
+    
+    .toggle-target-hidden {
+        display: none;
+    }
+    
+    .toggle-target-expanded {
+        display: block;
+    }
+    header {
+        text-align: center;
+    }
+
+    .main-nav li {
+        float: none;
+    }
+
+    .main-container {
+        text-align: center;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .cycle-slideshow {
+        width: 400px;
+    }
+}
 
 .Outreach a {
     text-decoration: none;

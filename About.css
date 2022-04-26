@@ -16,6 +16,37 @@ html {
     
 }
 
+.toggle-btn {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .toggle-btn-visible {
+        display: block;
+    }
+    
+    .toggle-target-hidden {
+        display: none;
+    }
+    
+    .toggle-target-expanded {
+        display: block;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .main-nav li {
+        float: none;
+    }
+
+    .container {
+        text-align: center;
+        padding-right: 10px;
+    }
+}
+
 
 header h1 {
     margin-bottom: 0;

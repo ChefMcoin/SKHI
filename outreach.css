@@ -88,6 +88,35 @@ footer {
     object-fit: cover;
 }
 
+.toggle-btn {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .toggle-btn-visible {
+        display: block;
+    }
+    
+    .toggle-target-hidden {
+        display: none;
+    }
+    
+    .toggle-target-expanded {
+        display: block;
+    }
+
+    .toggle-btn {
+        padding-left: 10px;
+    }
+    header {
+        text-align: center;
+    }
+    .main-nav li {
+        float: none;
+    }
+}
+
+
 
 
 .image-grid-col-2 {
