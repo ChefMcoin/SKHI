@@ -1,0 +1,202 @@
+html {
+    background-image: url(IMAGES/back.JPG);
+   
+    
+    
+}
+
+header {
+    color: black;
+    background-color: rgb(179, 179, 8);
+    background-image: url(IMAGES/oracle.JPG);
+    background-position: right center;
+    padding-top: 20px;
+    
+}
+
+
+header h1 {
+    margin-bottom: 0;
+}
+
+
+header p {
+    margin-top: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    padding-top: 20px;
+    
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.main-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    
+   
+    
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    display: block;
+    border: 2px solid black;
+    border-bottom: none;
+    padding: 10px;
+    color: black;
+}
+
+
+.main-nav a:hover {
+    background-color: rgb(73, 73, 13);
+}
+
+.First-text {
+    color: #000;
+    
+    
+    
+    
+}
+
+.aside {
+    border-bottom: 2px solid yellowgreen;
+    color: #000;
+    
+}
+
+
+
+.Outreach a {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.Outreach li {
+    list-style: none;
+    border: 1px solid rgb(135, 255, 80);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+
+.Outreach li:hover {
+    background-color: aqua;
+}
+
+.forimg {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.cycle-slideshow {
+    flex: 3;
+}
+
+.Outreach {
+    color: #000;
+    border: 2px solid rgb(135, 255, 80);
+    border-radius: 15px;
+    flex: 1;
+    padding-bottom: 0;
+    padding: 10px;  
+}
+
+
+    
+
+
+.slide {
+
+    position: relative;
+    
+
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 10px;
+    
+}
+
+
+.cycle-prev {
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 1px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.cycle-next {
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 1px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    right: 103px;
+    opacity: 0;
+    transition: opacity .5s;
+    
+}
+
+
+
+.cycle-slideshow:hover .cycle-next,
+.cycle-slideshow:hover .cycle-prev {
+    opacity: 1;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+
+footer {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
