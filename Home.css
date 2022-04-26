@@ -112,8 +112,9 @@ body {
         text-align: center;
     }
 
-    .cycle-slideshow {
-        width: 400px;
+    .cycle-prev:hover,
+    .cycle-next:hover {
+       opacity: 0;
     }
 }
 
