@@ -35,6 +35,9 @@ html {
 
     header {
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        
         
     }
 
@@ -124,6 +127,7 @@ header {
     background-color: #ccd220;
     color: #000;
     padding-left: 10px;
+    
 }
 
 
