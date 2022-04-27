@@ -103,13 +103,12 @@ body {
     .main-nav li {
         float: none;
     }
-
     .main-container {
-        text-align: center;
+        text-align: left;
     }
 
     .container {
-        text-align: center;
+        text-align: left;
     }
 
     .cycle-prev:hover,

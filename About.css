@@ -37,6 +37,7 @@ html {
         text-align: center;
         margin-left: 0;
         margin-right: 0;
+        background-color: aquamarine;
         
         
     }
@@ -51,9 +52,9 @@ html {
         padding-left: 10px;
     }
 
-   .hide-small {
+    .hide-small {
        display: none;
-   }
+    }
 
 
 }
