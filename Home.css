@@ -116,6 +116,22 @@ body {
     .cycle-next:hover {
        opacity: 0;
     }
+
+    .main-nav a {
+        border: 0 solid rgb(161, 161, 160);
+        background-color: rgb(161, 161, 160);
+    
+    }
+
+    .main-nav a:hover {
+        background-color: rgb(73, 0, 0);
+    }
+    .cycle-slideshow img {
+        width: 100%;
+        height: auto;
+    }
+
+    
 }
 
 .Outreach a {
