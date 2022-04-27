@@ -131,6 +131,11 @@ body {
         height: auto;
     }
 
+    .hide-small {
+        display: none;
+    }
+    
+
     
 }
 
