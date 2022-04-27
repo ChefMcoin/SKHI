@@ -134,6 +134,11 @@ body {
     .hide-small {
         display: none;
     }
+
+    .main-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     
 
     

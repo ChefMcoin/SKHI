@@ -114,6 +114,11 @@ footer {
     .main-nav li {
         float: none;
     }
+
+    .main-nav a {
+        border: 0 solid black;
+       
+    }
 }
 
 
