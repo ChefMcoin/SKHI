@@ -37,7 +37,7 @@ html {
         text-align: center;
         margin-left: 0;
         margin-right: 0;
-        background-color: aquamarine;
+        
         
         
     }
@@ -54,6 +54,14 @@ html {
 
     .hide-small {
        display: none;
+    }
+
+    .container {
+        background-image: linear-gradient(to top, yellow, black);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, yellow, black);
     }
 
 
