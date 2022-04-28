@@ -33,17 +33,18 @@ html {
         display: block;
     }
 
-    header {
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-        
-        
+    
+    .main-nav li {
+        width: 33%;
+       
         
     }
 
-    .main-nav li {
-        float: none;
+    
+
+    .main-nav li:hover {
+        background-color: #000;
+        
     }
 
     .container {
